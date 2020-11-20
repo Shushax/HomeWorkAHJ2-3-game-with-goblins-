@@ -1,5 +1,3 @@
-
-
 export default function start() {
   const img = document.createElement('img');
   img.src = 'img/goblin.png';
