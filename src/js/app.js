@@ -1,6 +1,8 @@
+import goblin from '../img/goblin.png';
+
 export default function start() {
   const img = document.createElement('img');
-  img.src = 'img/goblin.png';
+  img.src = goblin;
   const id = Math.floor(Math.random() * 16);
   const td = document.getElementById(`${id}`);
   td.appendChild(img);
