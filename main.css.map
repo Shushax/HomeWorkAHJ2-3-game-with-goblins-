@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/css/style.css"],"names":[],"mappings":"AAAA;IACI,yBAAyB;IACzB,YAAY;IACZ,aAAa;AACjB;;AAEA;IACI,UAAU;AACd,C","file":"main.css","sourcesContent":["td {\n    border: 2px solid #000000;\n    width: 140px;\n    height: 140px;\n}\n\nh2 {\n    color: red;\n}"],"sourceRoot":""}
