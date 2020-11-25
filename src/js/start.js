@@ -1,5 +1,5 @@
 /* eslint import/no-cycle:0 */ // --> OFF
-/* eslint no-const-assign:0 */ // --> OFF
+/* eslint no-plusplus:0 */ // --> OFF
 
 import goblin from '../img/goblin.png';
 import { intervalID } from './app';
@@ -15,7 +15,7 @@ export default function start() {
   const td = document.getElementById(`${id}`);
   td.appendChild(img);
   text.textContent = `Ты пропустил гоблинов: ${number}`;
-  number += number;
+  number++;
   if (number > 5) {
     const loose = document.createElement('h2');
     document.body.appendChild(loose);
@@ -24,6 +24,6 @@ export default function start() {
     td.innerHTML = '';
   }
   td.onclick = function () {
-    number -= number;
+    number--;
   };
 }
